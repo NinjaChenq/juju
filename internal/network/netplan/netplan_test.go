@@ -19,8 +19,8 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/internal/network/netplan"
-	coretesting "github.com/juju/juju/internal/testing"
+	"github.com/NinjaChenq/juju/internal/network/netplan"
+	coretesting "github.com/NinjaChenq/juju/internal/testing"
 )
 
 type NetplanSuite struct {
