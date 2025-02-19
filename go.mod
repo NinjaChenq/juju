@@ -1,4 +1,4 @@
-module github.com/juju/juju
+module github.com/NinjaChenq/juju
 
 go 1.24.0
 
