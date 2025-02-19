@@ -63,6 +63,9 @@ type Interface struct {
 	//
 	// See: https://github.com/canonical/netplan/blob/main/examples/openvswitch.yaml
 	OVSParameters *map[string]interface{} `yaml:"openvswitch,omitempty"`
+	
+	// (networkd back end only) Allow the specified interface to be configured even if it has no carrier.
+	IgnoreCarrier bool      `yaml:"ignore-carrier,omitempty"`
 }
 
 // Ethernet defines fields for just Ethernet devices
